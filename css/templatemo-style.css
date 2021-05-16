@@ -574,16 +574,16 @@
     bottom: 0px;
     text-align: left;
     padding: 25px 30px;
-    transition: 0.5s 0.2s;
+    transition: 0.8s 0.3s;
   }
 
   .menu-info .menu-item {
     float: left;
   }
 
-  /* .menu-info .menu-price {
+  .menu-info .menu-price {
     float: right;
-  } */
+  }
 
   .menu-info .menu-price span {
     font-size: 20px;
