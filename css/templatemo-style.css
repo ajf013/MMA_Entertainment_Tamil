@@ -445,9 +445,9 @@
     padding-bottom: 20px;
   }
 
-  .about-image {
+  /* . {
     position: absolute;
-  }
+  } */
 
 
 
@@ -552,12 +552,12 @@
 
   .menu-thumb img {
     width: 100%;
-    transition: 0.5s;
+    /* transition: 0.5s; */
   }
 
-  .menu-thumb:hover img {
+  /* .menu-thumb:hover img {
     transform: scale(1.15);
-  }
+  } */
 
   #menu .menu-thumb {
     overflow: hidden;
@@ -568,7 +568,7 @@
 
   .menu-thumb .menu-info {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 0px;
     right: 0px;
     bottom: 0px;
