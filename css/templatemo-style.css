@@ -70,8 +70,8 @@
   }
 
   ::-webkit-scrollbar{
-    width: 2px;
-    height: 2px;
+    width: 1px;
+    height: 1px;
   }
 
   ::-webkit-scrollbar-thumb {
@@ -551,7 +551,9 @@
   }
 
   .menu-thumb img {
+    height: 450px;
     width: 100%;
+    filter: brightness(50%);
     /* transition: 0.5s; */
   }
 
@@ -597,7 +599,7 @@
   .menu-thumb .menu-info p,
   .menu-thumb .menu-info span {
     transform: translateY(100%);
-    opacity: 0;
+    opacity: 1;
     display: block;
     transition: 0.5s 0.2s;
     color: #ffffff;
@@ -997,4 +999,16 @@
       top: 30%;
     }
   }
+
+  @media (max-width: 600px) {
+    .mma-intro video {
+      width: 100%;
+      height: 300px;
+    }
+  }
+
+  .mma-intro video {
+      width: 100%;
+      height: 300px;
+    }
 
