@@ -551,15 +551,15 @@
   }
 
   .menu-thumb img {
-    height: 450px;
+    height: 350px;
     width: 100%;
     filter: brightness(50%);
-    /* transition: 0.5s; */
+    transition: 0.5s;
   }
 
-  /* .menu-thumb:hover img {
+  .menu-thumb:hover img {
     transform: scale(1.15);
-  } */
+  }
 
   #menu .menu-thumb {
     overflow: hidden;
@@ -684,7 +684,7 @@
 
     .tst-author span {
       margin-left: 5px;
-    } */
+    }*/ 
 
 
 
@@ -996,7 +996,7 @@
     }
 
     .menu-thumb .menu-info {
-      top: 30%;
+      top: 0%;
     }
   }
 
